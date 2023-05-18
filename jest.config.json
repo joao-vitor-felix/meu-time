@@ -1,4 +1,5 @@
 {
+  "testMatch": ["<rootDir>/src/**/*.test.tsx"],
   "testEnvironment": "jest-environment-jsdom",
   "testPathIgnorePatterns": ["/node_modules"],
   "setupFilesAfterEnv": ["<rootDir>/.jest/setup.ts"],

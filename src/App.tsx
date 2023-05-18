@@ -1,13 +1,15 @@
 import { Theme } from "./styles/Theme";
 import { GlobalStyles } from "./styles/GlobalStyles";
+import { Route, Routes } from "react-router-dom";
+import SelectCountry from "./routes/Country";
 
 function App() {
   return (
     <Theme>
       <GlobalStyles />
-      <div>
-        <h1>teste</h1>
-      </div>
+      <Routes>
+        <Route path="/country" element={<SelectCountry />} />
+      </Routes>
     </Theme>
   );
 }

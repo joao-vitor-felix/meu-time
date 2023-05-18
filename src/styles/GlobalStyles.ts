@@ -24,6 +24,9 @@ body {
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
     background-color: ${({ theme }) => theme.colors.background};
+    height: 100vh;
+    width: 100vw;
+    color: ${({ theme }) => theme.colors.text};
 }
 
 `;

@@ -1,0 +1,3543 @@
+{
+  "get": "players",
+  "parameters": {
+    "season": "2020",
+    "team": "85"
+  },
+  "errors": [],
+  "results": 20,
+  "paging": {
+    "current": 1,
+    "total": 3
+  },
+  "response": [
+    {
+      "player": {
+        "id": 7,
+        "name": "A. Diallo",
+        "firstname": "Abdou-Lakhad",
+        "lastname": "Diallo",
+        "age": 27,
+        "birth": {
+          "date": "1996-05-04",
+          "place": "Tours",
+          "country": "France"
+        },
+        "nationality": "Senegal",
+        "height": "187 cm",
+        "weight": "79 kg",
+        "injured": false,
+        "photo": "https://media-1.api-sports.io/football/players/7.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-1.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-3.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 22,
+            "lineups": 17,
+            "minutes": 1488,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.952380",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 5,
+            "out": 2,
+            "bench": 9
+          },
+          "shots": {
+            "total": 4,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 1127,
+            "key": 1,
+            "accuracy": 47
+          },
+          "tackles": {
+            "total": 16,
+            "blocks": 8,
+            "interceptions": 25
+          },
+          "duels": {
+            "total": 110,
+            "won": 65
+          },
+          "dribbles": {
+            "attempts": 26,
+            "success": 17,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 9,
+            "committed": 17
+          },
+          "cards": {
+            "yellow": 2,
+            "yellowred": 1,
+            "red": 1
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-3.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 8,
+            "lineups": 6,
+            "minutes": 510,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.762500",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 4,
+            "bench": 6
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 260,
+            "key": 2,
+            "accuracy": 27
+          },
+          "tackles": {
+            "total": 12,
+            "blocks": 3,
+            "interceptions": 5
+          },
+          "duels": {
+            "total": 49,
+            "won": 28
+          },
+          "dribbles": {
+            "attempts": 11,
+            "success": 8,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 8
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 257,
+        "name": "Marquinhos",
+        "firstname": "Marcos",
+        "lastname": "Aoás Corrêa",
+        "age": 29,
+        "birth": {
+          "date": "1994-05-14",
+          "place": "São Paulo",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "183 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media-1.api-sports.io/football/players/257.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-3.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-1.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 25,
+            "lineups": 24,
+            "minutes": 2129,
+            "number": null,
+            "position": "Defender",
+            "rating": "7.168000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 2,
+            "bench": 3
+          },
+          "shots": {
+            "total": 14,
+            "on": 8
+          },
+          "goals": {
+            "total": 3,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 1729,
+            "key": 3,
+            "accuracy": 64
+          },
+          "tackles": {
+            "total": 27,
+            "blocks": 9,
+            "interceptions": 27
+          },
+          "duels": {
+            "total": 138,
+            "won": 83
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 5,
+            "committed": 14
+          },
+          "cards": {
+            "yellow": 2,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-1.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 10,
+            "lineups": 10,
+            "minutes": 817,
+            "number": null,
+            "position": "Defender",
+            "rating": "7.340000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 2,
+            "bench": 1
+          },
+          "shots": {
+            "total": 7,
+            "on": 3
+          },
+          "goals": {
+            "total": 3,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 570,
+            "key": 2,
+            "accuracy": 50
+          },
+          "tackles": {
+            "total": 18,
+            "blocks": 10,
+            "interceptions": 10
+          },
+          "duels": {
+            "total": 71,
+            "won": 48
+          },
+          "dribbles": {
+            "attempts": 7,
+            "success": 5,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 4,
+            "committed": 3
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 258,
+        "name": "Juan Bernat",
+        "firstname": "Juan",
+        "lastname": "Bernat Velasco",
+        "age": 30,
+        "birth": {
+          "date": "1993-03-01",
+          "place": "Valencia",
+          "country": "Spain"
+        },
+        "nationality": "Spain",
+        "height": "177 cm",
+        "weight": "67 kg",
+        "injured": false,
+        "photo": "https://media-2.api-sports.io/football/players/258.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-1.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-2.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 3,
+            "lineups": 2,
+            "minutes": 195,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.466666",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 2,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 109,
+            "key": 2,
+            "accuracy": 33
+          },
+          "tackles": {
+            "total": 5,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 21,
+            "won": 9
+          },
+          "dribbles": {
+            "attempts": 5,
+            "success": 3,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 6
+          },
+          "cards": {
+            "yellow": 2,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-3.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-3.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Defender",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 262,
+        "name": "P. Kimpembe",
+        "firstname": "Presnel",
+        "lastname": "Kimpembe",
+        "age": 28,
+        "birth": {
+          "date": "1995-08-13",
+          "place": "Beaumont-sur-Oise",
+          "country": "France"
+        },
+        "nationality": "France",
+        "height": "182 cm",
+        "weight": "79 kg",
+        "injured": false,
+        "photo": "https://media-1.api-sports.io/football/players/262.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-3.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-2.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 28,
+            "lineups": 26,
+            "minutes": 2307,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.900000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 5,
+            "bench": 5
+          },
+          "shots": {
+            "total": 4,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 1968,
+            "key": 5,
+            "accuracy": 66
+          },
+          "tackles": {
+            "total": 46,
+            "blocks": 11,
+            "interceptions": 30
+          },
+          "duels": {
+            "total": 187,
+            "won": 117
+          },
+          "dribbles": {
+            "attempts": 12,
+            "success": 9,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 25,
+            "committed": 31
+          },
+          "cards": {
+            "yellow": 6,
+            "yellowred": 0,
+            "red": 1
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-3.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-2.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 11,
+            "lineups": 11,
+            "minutes": 980,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.645454",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 556,
+            "key": null,
+            "accuracy": 47
+          },
+          "tackles": {
+            "total": 13,
+            "blocks": 4,
+            "interceptions": 5
+          },
+          "duels": {
+            "total": 57,
+            "won": 30
+          },
+          "dribbles": {
+            "attempts": 3,
+            "success": 3,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 6,
+            "committed": 10
+          },
+          "cards": {
+            "yellow": 2,
+            "yellowred": 1,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 263,
+        "name": "L. Kurzawa",
+        "firstname": "Layvin",
+        "lastname": "Kurzawa",
+        "age": 31,
+        "birth": {
+          "date": "1992-09-04",
+          "place": "Fréjus",
+          "country": "France"
+        },
+        "nationality": "France",
+        "height": "182 cm",
+        "weight": "74 kg",
+        "injured": false,
+        "photo": "https://media-2.api-sports.io/football/players/263.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-3.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-2.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-1.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 19,
+            "lineups": 15,
+            "minutes": 1282,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.800000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 4,
+            "out": 7,
+            "bench": 10
+          },
+          "shots": {
+            "total": 8,
+            "on": 2
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 825,
+            "key": 10,
+            "accuracy": 38
+          },
+          "tackles": {
+            "total": 26,
+            "blocks": 5,
+            "interceptions": 28
+          },
+          "duels": {
+            "total": 164,
+            "won": 77
+          },
+          "dribbles": {
+            "attempts": 22,
+            "success": 14,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 7,
+            "committed": 33
+          },
+          "cards": {
+            "yellow": 4,
+            "yellowred": 0,
+            "red": 1
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-3.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-1.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 5,
+            "lineups": 5,
+            "minutes": 382,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.760000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 4,
+            "bench": 5
+          },
+          "shots": {
+            "total": 3,
+            "on": 2
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 183,
+            "key": 3,
+            "accuracy": 30
+          },
+          "tackles": {
+            "total": 14,
+            "blocks": 1,
+            "interceptions": 8
+          },
+          "duels": {
+            "total": 58,
+            "won": 32
+          },
+          "dribbles": {
+            "attempts": 7,
+            "success": 5,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 2,
+            "committed": 12
+          },
+          "cards": {
+            "yellow": 2,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 267,
+        "name": "J. Draxler",
+        "firstname": "Julian",
+        "lastname": "Draxler",
+        "age": 30,
+        "birth": {
+          "date": "1993-09-20",
+          "place": "Gladbeck",
+          "country": "Germany"
+        },
+        "nationality": "Germany",
+        "height": "185 cm",
+        "weight": "72 kg",
+        "injured": false,
+        "photo": "https://media-3.api-sports.io/football/players/267.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-3.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-2.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-1.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 24,
+            "lineups": 12,
+            "minutes": 1059,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.922727",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 12,
+            "out": 9,
+            "bench": 17
+          },
+          "shots": {
+            "total": 8,
+            "on": 4
+          },
+          "goals": {
+            "total": 4,
+            "conceded": 0,
+            "assists": 3,
+            "saves": null
+          },
+          "passes": {
+            "total": 604,
+            "key": 31,
+            "accuracy": 23
+          },
+          "tackles": {
+            "total": 13,
+            "blocks": null,
+            "interceptions": 14
+          },
+          "duels": {
+            "total": 94,
+            "won": 45
+          },
+          "dribbles": {
+            "attempts": 25,
+            "success": 15,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 13,
+            "committed": 8
+          },
+          "cards": {
+            "yellow": 3,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-3.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-2.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 5,
+            "lineups": 3,
+            "minutes": 267,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.660000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 2,
+            "bench": 4
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 104,
+            "key": 3,
+            "accuracy": 17
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": 7
+          },
+          "duels": {
+            "total": 27,
+            "won": 10
+          },
+          "dribbles": {
+            "attempts": 7,
+            "success": 5,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 7
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 273,
+        "name": "M. Verratti",
+        "firstname": "Marco",
+        "lastname": "Verratti",
+        "age": 31,
+        "birth": {
+          "date": "1992-11-05",
+          "place": "Pescara",
+          "country": "Italy"
+        },
+        "nationality": "Italy",
+        "height": "165 cm",
+        "weight": "60 kg",
+        "injured": false,
+        "photo": "https://media-2.api-sports.io/football/players/273.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-3.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-2.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 21,
+            "lineups": 16,
+            "minutes": 1490,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "7.152380",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 5,
+            "out": 4,
+            "bench": 5
+          },
+          "shots": {
+            "total": 8,
+            "on": 5
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 2,
+            "saves": null
+          },
+          "passes": {
+            "total": 1765,
+            "key": 24,
+            "accuracy": 77
+          },
+          "tackles": {
+            "total": 53,
+            "blocks": 5,
+            "interceptions": 26
+          },
+          "duels": {
+            "total": 288,
+            "won": 163
+          },
+          "dribbles": {
+            "attempts": 60,
+            "success": 48,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 51,
+            "committed": 28
+          },
+          "cards": {
+            "yellow": 7,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-1.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 7,
+            "lineups": 6,
+            "minutes": 502,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "7.242857",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 4,
+            "bench": 2
+          },
+          "shots": {
+            "total": 1,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 2,
+            "saves": null
+          },
+          "passes": {
+            "total": 418,
+            "key": 11,
+            "accuracy": 55
+          },
+          "tackles": {
+            "total": 21,
+            "blocks": 1,
+            "interceptions": 6
+          },
+          "duels": {
+            "total": 91,
+            "won": 53
+          },
+          "dribbles": {
+            "attempts": 20,
+            "success": 17,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 12,
+            "committed": 8
+          },
+          "cards": {
+            "yellow": 3,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 276,
+        "name": "Neymar",
+        "firstname": "Neymar",
+        "lastname": "da Silva Santos Júnior",
+        "age": 31,
+        "birth": {
+          "date": "1992-02-05",
+          "place": "Mogi das Cruzes",
+          "country": "Brazil"
+        },
+        "nationality": "Brazil",
+        "height": "175 cm",
+        "weight": "68 kg",
+        "injured": false,
+        "photo": "https://media-2.api-sports.io/football/players/276.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-3.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-2.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-3.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 18,
+            "lineups": 15,
+            "minutes": 1416,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.455555",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 3,
+            "out": 2,
+            "bench": 3
+          },
+          "shots": {
+            "total": 53,
+            "on": 21
+          },
+          "goals": {
+            "total": 9,
+            "conceded": 0,
+            "assists": 5,
+            "saves": null
+          },
+          "passes": {
+            "total": 916,
+            "key": 61,
+            "accuracy": 40
+          },
+          "tackles": {
+            "total": 14,
+            "blocks": null,
+            "interceptions": 9
+          },
+          "duels": {
+            "total": 362,
+            "won": 173
+          },
+          "dribbles": {
+            "attempts": 155,
+            "success": 87,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 67,
+            "committed": 33
+          },
+          "cards": {
+            "yellow": 6,
+            "yellowred": 1,
+            "red": 1
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 5,
+            "missed": 1,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-1.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 9,
+            "lineups": 9,
+            "minutes": 746,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.355555",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 3,
+            "bench": 0
+          },
+          "shots": {
+            "total": 23,
+            "on": 17
+          },
+          "goals": {
+            "total": 6,
+            "conceded": 0,
+            "assists": 2,
+            "saves": null
+          },
+          "passes": {
+            "total": 365,
+            "key": 20,
+            "accuracy": 33
+          },
+          "tackles": {
+            "total": 5,
+            "blocks": 1,
+            "interceptions": 3
+          },
+          "duels": {
+            "total": 182,
+            "won": 86
+          },
+          "dribbles": {
+            "attempts": 63,
+            "success": 33,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 44,
+            "committed": 11
+          },
+          "cards": {
+            "yellow": 3,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 1,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 278,
+        "name": "K. Mbappé",
+        "firstname": "Kylian",
+        "lastname": "Mbappé Lottin",
+        "age": 25,
+        "birth": {
+          "date": "1998-12-20",
+          "place": "Paris",
+          "country": "France"
+        },
+        "nationality": "France",
+        "height": "178 cm",
+        "weight": "75 kg",
+        "injured": false,
+        "photo": "https://media-1.api-sports.io/football/players/278.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-2.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-2.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 31,
+            "lineups": 27,
+            "minutes": 2389,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.393548",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 4,
+            "out": 11,
+            "bench": 4
+          },
+          "shots": {
+            "total": 90,
+            "on": 55
+          },
+          "goals": {
+            "total": 27,
+            "conceded": 0,
+            "assists": 7,
+            "saves": null
+          },
+          "passes": {
+            "total": 952,
+            "key": 35,
+            "accuracy": 24
+          },
+          "tackles": {
+            "total": 4,
+            "blocks": 1,
+            "interceptions": 3
+          },
+          "duels": {
+            "total": 318,
+            "won": 137
+          },
+          "dribbles": {
+            "attempts": 181,
+            "success": 90,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 38,
+            "committed": 23
+          },
+          "cards": {
+            "yellow": 5,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 6,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-2.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 10,
+            "lineups": 10,
+            "minutes": 900,
+            "number": null,
+            "position": "Attacker",
+            "rating": "7.680000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 1,
+            "bench": 1
+          },
+          "shots": {
+            "total": 25,
+            "on": 15
+          },
+          "goals": {
+            "total": 8,
+            "conceded": 0,
+            "assists": 3,
+            "saves": null
+          },
+          "passes": {
+            "total": 269,
+            "key": 20,
+            "accuracy": 20
+          },
+          "tackles": {
+            "total": 2,
+            "blocks": null,
+            "interceptions": 1
+          },
+          "duels": {
+            "total": 107,
+            "won": 61
+          },
+          "dribbles": {
+            "attempts": 62,
+            "success": 37,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 19,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 2,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 381,
+        "name": "Danilo Pereira",
+        "firstname": "Danilo Luís Hélio",
+        "lastname": "Pereira",
+        "age": 32,
+        "birth": {
+          "date": "1991-09-09",
+          "place": "Bissau",
+          "country": "Guinea-Bissau"
+        },
+        "nationality": "Portugal",
+        "height": "188 cm",
+        "weight": "83 kg",
+        "injured": false,
+        "photo": "https://media-3.api-sports.io/football/players/381.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-3.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-1.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-1.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 23,
+            "lineups": 16,
+            "minutes": 1429,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.926086",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 7,
+            "out": 5,
+            "bench": 10
+          },
+          "shots": {
+            "total": 17,
+            "on": 5
+          },
+          "goals": {
+            "total": 2,
+            "conceded": 0,
+            "assists": 1,
+            "saves": null
+          },
+          "passes": {
+            "total": 1183,
+            "key": 5,
+            "accuracy": 47
+          },
+          "tackles": {
+            "total": 21,
+            "blocks": 6,
+            "interceptions": 30
+          },
+          "duels": {
+            "total": 115,
+            "won": 71
+          },
+          "dribbles": {
+            "attempts": 8,
+            "success": 7,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 15,
+            "committed": 14
+          },
+          "cards": {
+            "yellow": 3,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-3.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 12,
+            "lineups": 8,
+            "minutes": 780,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.908333",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 4,
+            "out": 0,
+            "bench": 4
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 424,
+            "key": 1,
+            "accuracy": 31
+          },
+          "tackles": {
+            "total": 10,
+            "blocks": 6,
+            "interceptions": 20
+          },
+          "duels": {
+            "total": 50,
+            "won": 30
+          },
+          "dribbles": {
+            "attempts": 2,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 5,
+            "committed": 6
+          },
+          "cards": {
+            "yellow": 2,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 530,
+        "name": "M. Bakker",
+        "firstname": "Mitchel",
+        "lastname": "Bakker",
+        "age": 23,
+        "birth": {
+          "date": "2000-06-20",
+          "place": "Purmerend",
+          "country": "Netherlands"
+        },
+        "nationality": "Netherlands",
+        "height": "185 cm",
+        "weight": "85 kg",
+        "injured": false,
+        "photo": "https://media-3.api-sports.io/football/players/530.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-1.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-1.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 26,
+            "lineups": 18,
+            "minutes": 1691,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.915384",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 8,
+            "out": 5,
+            "bench": 20
+          },
+          "shots": {
+            "total": 2,
+            "on": 2
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": 2,
+            "saves": null
+          },
+          "passes": {
+            "total": 1169,
+            "key": 16,
+            "accuracy": 40
+          },
+          "tackles": {
+            "total": 38,
+            "blocks": 2,
+            "interceptions": 22
+          },
+          "duels": {
+            "total": 148,
+            "won": 85
+          },
+          "dribbles": {
+            "attempts": 30,
+            "success": 15,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 9,
+            "committed": 16
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-1.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 10,
+            "lineups": 3,
+            "minutes": 403,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.330000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 7,
+            "out": 0,
+            "bench": 9
+          },
+          "shots": {
+            "total": 2,
+            "on": 1
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 166,
+            "key": null,
+            "accuracy": 16
+          },
+          "tackles": {
+            "total": 7,
+            "blocks": null,
+            "interceptions": 4
+          },
+          "duels": {
+            "total": 45,
+            "won": 18
+          },
+          "dribbles": {
+            "attempts": 11,
+            "success": 2,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 4,
+            "committed": 5
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 19014,
+        "name": "Sergio Rico",
+        "firstname": "Sergio",
+        "lastname": "Rico González",
+        "age": 30,
+        "birth": {
+          "date": "1993-09-01",
+          "place": "Sevilla",
+          "country": "Spain"
+        },
+        "nationality": "Spain",
+        "height": "195 cm",
+        "weight": "90 kg",
+        "injured": false,
+        "photo": "https://media-3.api-sports.io/football/players/19014.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-2.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-2.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 10,
+            "lineups": 8,
+            "minutes": 808,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": "6.910000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 2,
+            "out": 0,
+            "bench": 28
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 8,
+            "assists": null,
+            "saves": 28
+          },
+          "passes": {
+            "total": 172,
+            "key": null,
+            "accuracy": 15
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 1,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-1.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 12
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 2
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-2.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 2
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 20568,
+        "name": "A. Letellier",
+        "firstname": "Alexandre",
+        "lastname": "Letellier",
+        "age": 33,
+        "birth": {
+          "date": "1990-12-11",
+          "place": "Paris",
+          "country": "France"
+        },
+        "nationality": "France",
+        "height": "193 cm",
+        "weight": "93 kg",
+        "injured": false,
+        "photo": "https://media-1.api-sports.io/football/players/20568.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-2.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-3.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 10
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-3.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 6
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 162018,
+        "name": "B. Fadiga",
+        "firstname": "Bandiougou",
+        "lastname": "Fadiga",
+        "age": 22,
+        "birth": {
+          "date": "2001-01-15",
+          "place": null,
+          "country": "France"
+        },
+        "nationality": "France",
+        "height": null,
+        "weight": null,
+        "injured": false,
+        "photo": "https://media-1.api-sports.io/football/players/162018.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-3.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-2.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-2.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 6,
+            "lineups": 0,
+            "minutes": 58,
+            "number": null,
+            "position": "Midfielder",
+            "rating": "6.266666",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 6,
+            "out": 0,
+            "bench": 15
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 28,
+            "key": 1,
+            "accuracy": 6
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 6,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-2.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 6
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 162067,
+        "name": "T. Pembélé",
+        "firstname": "Timothée Joseph",
+        "lastname": "Pembélé",
+        "age": 21,
+        "birth": {
+          "date": "2002-09-09",
+          "place": "Beaumont-sur-Oise",
+          "country": "France"
+        },
+        "nationality": "France",
+        "height": "183 cm",
+        "weight": "80 kg",
+        "injured": false,
+        "photo": "https://media-1.api-sports.io/football/players/162067.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-1.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-2.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 6,
+            "lineups": 3,
+            "minutes": 380,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.680000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 3,
+            "out": 0,
+            "bench": 22
+          },
+          "shots": {
+            "total": 3,
+            "on": 2
+          },
+          "goals": {
+            "total": 1,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 232,
+            "key": 2,
+            "accuracy": 35
+          },
+          "tackles": {
+            "total": 8,
+            "blocks": null,
+            "interceptions": 5
+          },
+          "duels": {
+            "total": 53,
+            "won": 24
+          },
+          "dribbles": {
+            "attempts": 11,
+            "success": 8,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 3,
+            "committed": 7
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-1.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 10,
+            "number": null,
+            "position": "Defender",
+            "rating": "6.200000",
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 9
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": 5,
+            "key": null,
+            "accuracy": 5
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": 4,
+            "won": 1
+          },
+          "dribbles": {
+            "attempts": 1,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": 1,
+            "committed": 1
+          },
+          "cards": {
+            "yellow": 1,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 162068,
+        "name": "M. Kapo",
+        "firstname": "Maxen",
+        "lastname": "Kapo",
+        "age": 22,
+        "birth": {
+          "date": "2001-01-19",
+          "place": "Quincy-sous-Sénart",
+          "country": "France"
+        },
+        "nationality": "France",
+        "height": "192 cm",
+        "weight": "78 kg",
+        "injured": false,
+        "photo": "https://media-2.api-sports.io/football/players/162068.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-3.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-2.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-2.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 4
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-2.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 162532,
+        "name": "Y. Saidani",
+        "firstname": "Yanis",
+        "lastname": "Saidani",
+        "age": 20,
+        "birth": {
+          "date": "2001-08-20",
+          "place": null,
+          "country": "France"
+        },
+        "nationality": "France",
+        "height": null,
+        "weight": null,
+        "injured": false,
+        "photo": "https://media-3.api-sports.io/football/players/162532.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-1.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-2.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 66,
+            "name": "Coupe de France",
+            "country": "France",
+            "logo": "https://media-3.api-sports.io/football/leagues/66.png",
+            "flag": "https://media-2.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-2.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 268572,
+        "name": "É. Michut",
+        "firstname": "Édouard",
+        "lastname": "Michut",
+        "age": 20,
+        "birth": {
+          "date": "2003-03-04",
+          "place": null,
+          "country": "France"
+        },
+        "nationality": "France",
+        "height": null,
+        "weight": null,
+        "injured": false,
+        "photo": "https://media-3.api-sports.io/football/players/268572.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-3.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-2.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 1,
+            "lineups": 0,
+            "minutes": 1,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 1,
+            "out": 0,
+            "bench": 4
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-3.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-2.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 2
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 288771,
+        "name": "M. Randriamamy",
+        "firstname": "Mathyas Todisoa François",
+        "lastname": "Randriamamy",
+        "age": 20,
+        "birth": {
+          "date": "2003-04-23",
+          "place": null,
+          "country": "France"
+        },
+        "nationality": "Madagascar",
+        "height": "186 cm",
+        "weight": null,
+        "injured": false,
+        "photo": "https://media-3.api-sports.io/football/players/288771.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-3.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-1.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 0
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-1.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-1.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Goalkeeper",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 3
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": 1
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 310196,
+        "name": "Ismaël Gharbi",
+        "firstname": "Ismaël",
+        "lastname": "Gharbi Álvarez",
+        "age": 19,
+        "birth": {
+          "date": "2004-04-10",
+          "place": null,
+          "country": "France"
+        },
+        "nationality": "Spain",
+        "height": null,
+        "weight": null,
+        "injured": false,
+        "photo": "https://media-3.api-sports.io/football/players/310196.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 61,
+            "name": "Ligue 1",
+            "country": "France",
+            "logo": "https://media-2.api-sports.io/football/leagues/61.png",
+            "flag": "https://media-1.api-sports.io/flags/fr.svg",
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 0
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": null,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": null,
+            "missed": null,
+            "saved": null
+          }
+        },
+        {
+          "team": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media-2.api-sports.io/football/teams/85.png"
+          },
+          "league": {
+            "id": 2,
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo": "https://media-2.api-sports.io/football/leagues/2.png",
+            "flag": null,
+            "season": 2020
+          },
+          "games": {
+            "appearences": 0,
+            "lineups": 0,
+            "minutes": 0,
+            "number": null,
+            "position": "Midfielder",
+            "rating": null,
+            "captain": false
+          },
+          "substitutes": {
+            "in": 0,
+            "out": 0,
+            "bench": 1
+          },
+          "shots": {
+            "total": null,
+            "on": null
+          },
+          "goals": {
+            "total": 0,
+            "conceded": 0,
+            "assists": null,
+            "saves": null
+          },
+          "passes": {
+            "total": null,
+            "key": null,
+            "accuracy": null
+          },
+          "tackles": {
+            "total": null,
+            "blocks": null,
+            "interceptions": null
+          },
+          "duels": {
+            "total": null,
+            "won": null
+          },
+          "dribbles": {
+            "attempts": null,
+            "success": null,
+            "past": null
+          },
+          "fouls": {
+            "drawn": null,
+            "committed": null
+          },
+          "cards": {
+            "yellow": 0,
+            "yellowred": 0,
+            "red": 0
+          },
+          "penalty": {
+            "won": null,
+            "commited": null,
+            "scored": 0,
+            "missed": 0,
+            "saved": null
+          }
+        }
+      ]
+    }
+  ]
+}

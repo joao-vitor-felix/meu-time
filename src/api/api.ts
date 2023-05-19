@@ -13,19 +13,19 @@ export type Countries = {
   name: string;
 };
 
-type League = {
+export type League = {
   league: {
     id: number;
     name: string;
-    type: string;
+    type?: string;
     logo: string;
   };
-  country: {
+  country?: {
     name: string;
     code: string;
     flag: string;
   };
-  seasons: {
+  seasons?: {
     year: number;
     start: string;
     end: string;
@@ -324,12 +324,13 @@ type TeamData = {
 };
 
 export const fetchCountries = async (
-  key = "ae7fb7d2e733a93339ce809414adc04b"
-): Promise<Countries[]> => {
+  key = "a"
+): Promise<{
+  countries: Countries[];
+  error: string;
+}> => {
   const response = await axios.get(
-    process.env.NODE_ENV !== "production"
-      ? "../../mocks/countries.json"
-      : "https://v3.football.api-sports.io/countries",
+    "https://v3.football.api-sports.io/countries",
     {
       headers: {
         "x-apisports-key": key
@@ -337,14 +338,16 @@ export const fetchCountries = async (
     }
   );
 
-  console.log(response.data.response);
-  return response.data.response;
+  return {
+    countries: response.data.response,
+    error: response.data.errors?.token
+  };
 };
 
 export const fetchLeagues = async (
   key = "ae7fb7d2e733a93339ce809414adc04b",
   country: string
-): Promise<League[]> => {
+): Promise<{ leagues: League[]; error: string }> => {
   const response = await axios.get(
     `https://v3.football.api-sports.io/leagues?country=${country}`,
     {
@@ -354,8 +357,10 @@ export const fetchLeagues = async (
     }
   );
 
-  console.log(response.data.response);
-  return response.data.response;
+  return {
+    leagues: response.data.response,
+    error: response.data.errors?.token
+  };
 };
 
 export const fetchTeams = async (

@@ -32,3 +32,7 @@ export const Title = styled.h1`
   font-size: 2rem;
   margin-bottom: 2rem;
 `;
+
+export const Error = styled(Title)`
+  color: red;
+`;

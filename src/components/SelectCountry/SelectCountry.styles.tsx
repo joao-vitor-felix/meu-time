@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-export const Item = styled.div`
+export const Item = styled(Link)`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,6 +9,8 @@ export const Item = styled.div`
   text-align: center;
   width: 11%;
   cursor: pointer;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.text};
 
   @media screen and (max-width: 768px) {
     width: 20%;

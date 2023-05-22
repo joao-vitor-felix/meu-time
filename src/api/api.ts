@@ -1,12 +1,5 @@
 import axios from "axios";
 
-// export const api = axios.create({
-//   baseURL: "https://v3.football.api-sports.io",
-//   headers: {
-//     "x-apisports-key": "ae7fb7d2e733a93339ce809414adc04b"
-//   }
-// });
-
 export type Countries = {
   code?: string;
   flag: string;
@@ -49,7 +42,7 @@ export type League = {
   };
 };
 
-type Teams = {
+export type Teams = {
   team: {
     id: number;
     name: string;
@@ -324,7 +317,7 @@ type TeamData = {
 };
 
 export const fetchCountries = async (
-  key = "a"
+  key: string
 ): Promise<{
   countries: Countries[];
   error: string;
@@ -345,7 +338,7 @@ export const fetchCountries = async (
 };
 
 export const fetchLeagues = async (
-  key = "ae7fb7d2e733a93339ce809414adc04b",
+  key: string,
   country: string
 ): Promise<{ leagues: League[]; error: string }> => {
   const response = await axios.get(
@@ -364,10 +357,10 @@ export const fetchLeagues = async (
 };
 
 export const fetchTeams = async (
-  key = "ae7fb7d2e733a93339ce809414adc04b",
+  key: string,
   league: number,
   season: number
-): Promise<Teams[]> => {
+): Promise<{ teams: Teams[]; error: string }> => {
   const response = await axios.get(
     `https://v3.football.api-sports.io/teams?league=${league}&season=${season}`,
     {
@@ -377,12 +370,15 @@ export const fetchTeams = async (
     }
   );
 
-  console.log(response.data.response);
-  return response.data.response;
+  console.log(response.data);
+  return {
+    teams: response.data.response,
+    error: response.data.errors?.token
+  };
 };
 
 export const fetchTeamData = async (
-  key = "ae7fb7d2e733a93339ce809414adc04b",
+  key: string,
   league: number,
   season: number,
   team: number

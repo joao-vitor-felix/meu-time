@@ -8,7 +8,12 @@ describe("SelectLeague", () => {
     render(
       <Theme>
         <BrowserRouter>
-          <SelectLeague name="Ligue 1" logo="www.google.com" id={71} />
+          <SelectLeague
+            name="Ligue 1"
+            logo="www.google.com"
+            id={71}
+            season={2022}
+          />
         </BrowserRouter>
       </Theme>
     );

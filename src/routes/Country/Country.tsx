@@ -1,11 +1,20 @@
 import SelectCountry from "../../components/SelectCountry/SelectCountry";
 import * as S from "./Country.styles";
 import useCountry from "../../hooks/useCountry";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
+import Logo from "../../components/Logo/Logo";
+import useAuthContext from "../../hooks/useAuthContext";
 const Country = () => {
-  const { data, isError } = useCountry("ae7fb7d2e733a93339ce809414adc04b");
+  const { key } = useAuthContext();
+
+  const validKey = typeof key === "string" ? key : "";
+
+  const { data, isError } = useCountry(validKey);
+  useDocumentTitle("Selecione o país | Meu Time");
 
   return (
     <S.Container>
+      <Logo />
       <S.Title>Selecione o país</S.Title>
       {isError && <S.Error as="h3">{data?.error}</S.Error>}
       {data && data.countries.length > 0 && (

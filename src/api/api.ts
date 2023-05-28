@@ -63,7 +63,7 @@ export type Teams = {
   };
 };
 
-type TeamData = {
+export type TeamData = {
   league: {
     id: number;
     name: string;
@@ -316,6 +316,100 @@ type TeamData = {
   };
 };
 
+export type PlayerData = {
+  player: {
+    id: number;
+    name: string;
+    firstname: string;
+    lastname: string;
+    age: number;
+    birth: {
+      date: string;
+      place: string;
+      country: string;
+    };
+    nationality: string;
+    height: string;
+    weight: string;
+    injured: boolean;
+    photo: string;
+  };
+  statistics: {
+    team: {
+      id: number;
+      name: string;
+      logo: string;
+    };
+    league: {
+      id: number;
+      name: string;
+      country: string;
+      logo: string;
+      flag: string;
+      season: number;
+    };
+    games: {
+      appearences: number;
+      lineups: number;
+      minutes: number;
+      number: number;
+      position: string;
+      rating: string;
+      captain: boolean;
+    };
+    substitutes: {
+      in: number;
+      out: number;
+      bench: number;
+    };
+    shots: {
+      total: number;
+      on: number;
+    };
+    goals: {
+      total: number;
+      conceded: number;
+      assists: number;
+      saves: number;
+    };
+    passes: {
+      total: number;
+      key: number;
+      accuracy: number;
+    };
+    tackles: {
+      total: number;
+      blocks: number;
+      interceptions: number;
+    };
+    duels: {
+      total: number;
+      won: number;
+    };
+    dribbles: {
+      attempts: number;
+      success: number;
+      past: number;
+    };
+    fouls: {
+      drawn: number;
+      committed: number;
+    };
+    cards: {
+      yellow: number;
+      yellowred: number;
+      red: number;
+    };
+    penalty: {
+      won: number;
+      commited: number;
+      scored: number;
+      missed: number;
+      saved: number;
+    };
+  }[];
+};
+
 export const fetchCountries = async (
   key: string
 ): Promise<{
@@ -370,7 +464,6 @@ export const fetchTeams = async (
     }
   );
 
-  console.log(response.data);
   return {
     teams: response.data.response,
     error: response.data.errors?.token
@@ -382,7 +475,7 @@ export const fetchTeamData = async (
   league: number,
   season: number,
   team: number
-): Promise<TeamData[]> => {
+): Promise<{ teamData: TeamData; error: string }> => {
   const response = await axios.get(
     `https://v3.football.api-sports.io/teams/statistics?season=${season}&team=${team}&league=${league}`,
     {
@@ -392,6 +485,28 @@ export const fetchTeamData = async (
     }
   );
 
-  console.log(response.data.response);
-  return response.data.response;
+  return {
+    teamData: response.data.response,
+    error: response.data.errors?.token
+  };
+};
+
+export const fetchTeamPlayers = async (
+  key: string,
+  season: number,
+  team: number
+): Promise<{ playerData: PlayerData[]; error: string }> => {
+  const response = await axios.get(
+    `https://v3.football.api-sports.io/players?season=${season}&team=${team}`,
+    {
+      headers: {
+        "x-apisports-key": key
+      }
+    }
+  );
+
+  return {
+    playerData: response.data.response,
+    error: response.data.errors?.token
+  };
 };

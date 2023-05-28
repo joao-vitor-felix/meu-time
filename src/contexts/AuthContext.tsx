@@ -1,48 +1,43 @@
 import { PropsWithChildren, createContext, useEffect, useState } from "react";
+import Spinner from "../components/Spinner/Spinner";
 
 type AuthContextType = {
-  key: string | null;
+  key: string;
   setKey: (key: string) => void;
-  isAuthenticated: boolean | null;
-  setIsAuthenticated: (isAuthenticated: boolean) => void;
 };
 
 export const AuthContext = createContext<AuthContextType>({
   key: "",
-  setKey: () => null,
-  isAuthenticated: false,
-  setIsAuthenticated: () => null
+  setKey: () => null
 });
 
 const AuthContextProvider = ({ children }: PropsWithChildren) => {
-  const [key, setKey] = useState<string | null>(null);
-  const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
+  const [key, setKey] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const storedKey = localStorage.getItem("key");
-    const storedIsAuthenticated = localStorage.getItem("isAuthenticated");
 
     if (storedKey) {
       setKey(storedKey);
     }
 
-    if (storedIsAuthenticated) {
-      setIsAuthenticated(Boolean(storedIsAuthenticated));
-    } else {
-      setIsAuthenticated(false);
-    }
+    setIsLoading(false);
   }, []);
 
   useEffect(() => {
-    if (key !== null && isAuthenticated !== null) {
+    setTimeout(() => {
       localStorage.setItem("key", key);
-      localStorage.setItem("isAuthenticated", String(isAuthenticated));
-    }
-  }, [key, isAuthenticated]);
+    }, 0);
+  }, [key]);
 
-  const value = { key, setKey, isAuthenticated, setIsAuthenticated };
+  const value = { key, setKey };
 
-  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+  return isLoading ? (
+    <Spinner />
+  ) : (
+    <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
+  );
 };
 
 export default AuthContextProvider;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import * as S from "../Country/Country.styles";
@@ -15,7 +15,7 @@ const Auth = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const { setKey, setIsAuthenticated } = useAuthContext();
+  const { setKey } = useAuthContext();
   const navigate = useNavigate();
 
   const handleKey = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -33,11 +33,8 @@ const Auth = () => {
       }
     );
 
-    console.log(response);
-
     if (response.data.response.length > 0) {
       setKey(value);
-      setIsAuthenticated(true);
       setIsLoading(false);
       navigate("/");
     }
@@ -46,7 +43,6 @@ const Auth = () => {
       console.error("Error authenticating:", error);
       setError("Key inválida. Insira uma key válida.");
       setIsLoading(false);
-      setIsAuthenticated(false);
     }
   };
 
@@ -54,7 +50,12 @@ const Auth = () => {
     <S.Container>
       <Logo />
       <S.Title>Informe sua Key</S.Title>
-      <Input placeholder="Digite sua key" id="key" onChange={handleKey} />
+      <Input
+        type="text"
+        placeholder="Digite sua key"
+        id="key"
+        onChange={handleKey}
+      />
       {error && <Error>{error}</Error>}
       <Button
         onClick={() => handleClick(value)}

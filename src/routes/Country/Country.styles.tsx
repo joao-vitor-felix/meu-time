@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Button } from "../../components/Button/Button.styles";
 
 export const Container = styled.div`
   display: flex;
@@ -9,11 +10,12 @@ export const Container = styled.div`
   padding: 4rem 2rem;
   width: 100vw;
   height: 100vh;
+  position: relative;
 `;
 
 export const Box = styled.div`
   padding: 4rem 3.5rem;
-  width: 60rem;
+  width: 80rem;
   height: 50rem;
   display: flex;
   flex-wrap: wrap;
@@ -36,4 +38,15 @@ export const Title = styled.h1`
 
 export const Error = styled(Title)`
   color: red;
+`;
+
+export const ButtonStyled = styled(Button)`
+  position: absolute;
+  top: 2rem;
+  right: 2.5rem;
+
+  @media screen and (max-width: 768px) {
+    width: 7rem;
+    right: 1rem;
+  }
 `;

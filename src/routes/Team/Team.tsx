@@ -9,19 +9,24 @@ import useAuthContext from "../../hooks/useAuthContext";
 const Team = () => {
   useDocumentTitle("Selecione o time | Meu Time");
 
-  const { key } = useAuthContext();
+  const { key, setKey } = useAuthContext();
 
   const { leagueId, seasonId } = useParams();
 
   const validKey = typeof key === "string" ? key : "";
-  const validLeague = Number(leagueId);
-  const validSeason = Number(seasonId);
+  const validLeagueId = Number(leagueId);
+  const validSeasonId = Number(seasonId);
 
-  const { data, isError } = useTeam(validKey, validLeague, validSeason);
+  const { data, isError } = useTeam(validKey, validLeagueId, validSeasonId);
+
+  const handleLogout = () => {
+    setKey("");
+  };
 
   return (
     <S.Container>
       <Logo />
+      <S.ButtonStyled children="Sair" onClick={handleLogout} />
       <S.Title>Selecione o time</S.Title>
       {isError && <S.Error as="h3">{data?.error}</S.Error>}
       {data && data.teams.length > 0 && (

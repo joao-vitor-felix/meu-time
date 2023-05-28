@@ -4,17 +4,23 @@ import useCountry from "../../hooks/useCountry";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 import Logo from "../../components/Logo/Logo";
 import useAuthContext from "../../hooks/useAuthContext";
+
 const Country = () => {
-  const { key } = useAuthContext();
+  const { key, setKey } = useAuthContext();
 
   const validKey = typeof key === "string" ? key : "";
 
   const { data, isError } = useCountry(validKey);
   useDocumentTitle("Selecione o país | Meu Time");
 
+  const handleLogout = () => {
+    setKey("");
+  };
+
   return (
     <S.Container>
       <Logo />
+      <S.ButtonStyled children="Sair" onClick={handleLogout} />
       <S.Title>Selecione o país</S.Title>
       {isError && <S.Error as="h3">{data?.error}</S.Error>}
       {data && data.countries.length > 0 && (

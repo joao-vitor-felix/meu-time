@@ -13,7 +13,7 @@ const League = () => {
 
   const { countryName } = useParams();
 
-  const { key } = useAuthContext();
+  const { key, setKey } = useAuthContext();
 
   const validKey = typeof key === "string" ? key : "";
   const validCountryName = typeof countryName === "string" ? countryName : "";
@@ -25,11 +25,23 @@ const League = () => {
     setValue(Number(event.target.value));
   };
 
+  const handleLogout = () => {
+    setKey("");
+  };
+
   return (
     <S.Container>
       <Logo />
+      <S.ButtonStyled children="Sair" onClick={handleLogout} />
       <S.Title>Digite a temporada e selecione a liga</S.Title>
-      <Input placeholder="Exemplo: 2022" id="season" onChange={handleChange} />
+      <Input
+        placeholder="Exemplo: 2022"
+        type="number"
+        min="4"
+        max="4"
+        id="season"
+        onChange={handleChange}
+      />
       {isError && <S.Error as="h3">{data?.error}</S.Error>}
       {data && data.leagues.length > 0 && (
         <S.Box>

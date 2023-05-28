@@ -3,20 +3,22 @@ import * as S from "./Input.styles";
 type InputProps = {
   placeholder: string;
   id: string;
+  type: string;
+  min?: string;
+  max?: string;
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
-const Input = ({ placeholder, id, onChange }: InputProps) => {
+const Input = ({ placeholder, id, onChange, type, min, max }: InputProps) => {
   return (
-    <S.Container>
-      <S.Label htmlFor={id}></S.Label>
-      <S.InputField
-        type="text"
-        placeholder={placeholder}
-        id={id}
-        onChange={onChange}
-      />
-    </S.Container>
+    <S.InputField
+      type={type}
+      placeholder={placeholder}
+      id={id}
+      onChange={onChange}
+      min={min}
+      max={max}
+    />
   );
 };
 

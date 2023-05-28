@@ -1,9 +1,8 @@
-// import { GiSoccerBall } from "react-icons/gi";
 import * as S from "./Logo.styles";
 
 const Logo = () => {
   return (
-    <S.Container>
+    <S.Container to="/">
       <S.Icon />
       <S.Title>Meu Time</S.Title>
     </S.Container>

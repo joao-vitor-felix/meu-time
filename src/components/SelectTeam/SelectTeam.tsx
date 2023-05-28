@@ -6,9 +6,9 @@ type SelectTeamProps = {
   id: number;
 };
 
-const SelectTeam = ({ name, logo }: SelectTeamProps) => {
+const SelectTeam = ({ name, logo, id }: SelectTeamProps) => {
   return (
-    <S.Item to="#">
+    <S.Item to={`${id}`}>
       <S.Flag src={logo} alt={`Imagem do time ${name}`} />
       <S.Name>{name}</S.Name>
     </S.Item>

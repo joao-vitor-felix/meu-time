@@ -5,8 +5,8 @@ export const Button = styled.button`
   color: ${({ theme }) => theme.colors.text};
   border: none;
   border-radius: 0.5rem;
-  width: 13rem;
-  padding: 1.2rem 3rem;
+  width: 10rem;
+  padding: 1.1rem 0.5rem;
   font-weight: bold;
   font-size: 1.5rem;
   font-family: "Manrope", sans-serif;

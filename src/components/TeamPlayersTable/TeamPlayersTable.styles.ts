@@ -29,4 +29,5 @@ export const TableRow = styled.tr`
 export const TableCell = styled.td`
   padding: 1.2rem;
   font-size: 1.4rem;
+  text-align: center;
 `;

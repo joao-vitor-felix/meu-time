@@ -24,10 +24,14 @@ const Formation = ({ lineups }: FormationProps) => {
 
   return (
     <TableRow>
-      <TableCell>
-        Formação mais utilizada:
-        {mostUsedFormation}, {maxPlayed} vezes utilizada.
-      </TableCell>
+      {mostUsedFormation && maxPlayed ? (
+        <TableCell>
+          Formação mais utilizada: {mostUsedFormation}, {maxPlayed} vezes
+          utilizada.
+        </TableCell>
+      ) : (
+        <TableCell>Não há formações disponíveis</TableCell>
+      )}
     </TableRow>
   );
 };

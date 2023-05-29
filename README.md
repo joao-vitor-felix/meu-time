@@ -7,7 +7,7 @@
 Este projeto consiste em um teste técnico de Front end da Trade Technology. O objetivo foi criar uma aplicação web que permita que o usuário visualize as informações do seu time favorito.
 
 <h2 align="center">
-  <a href="meu-time-teste.netlify.app" target="_blank">Abrir o site</a>
+  <a href="https://meu-time-teste.netlify.app" target="_blank">Abrir o site</a>
 </h2>
 
 ---

@@ -5,6 +5,7 @@ import Logo from "../../components/Logo/Logo";
 import { useParams } from "react-router-dom";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 import useAuthContext from "../../hooks/useAuthContext";
+import Spinner from "../../components/Spinner/Spinner";
 
 const Team = () => {
   useDocumentTitle("Selecione o time | Meu Time");
@@ -29,7 +30,7 @@ const Team = () => {
       <S.ButtonStyled children="Sair" onClick={handleLogout} />
       <S.Title>Selecione o time</S.Title>
       {isError && <S.Error as="h3">{data?.error}</S.Error>}
-      {data && data.teams.length > 0 && (
+      {(data && data.teams.length > 0 && (
         <S.Box>
           {data &&
             data.teams.map(team => (
@@ -41,7 +42,7 @@ const Team = () => {
               />
             ))}
         </S.Box>
-      )}
+      )) || <Spinner />}
     </S.Container>
   );
 };

@@ -7,6 +7,7 @@ import Input from "../../components/Input/Input";
 import useLeague from "../../hooks/useLeague";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 import useAuthContext from "../../hooks/useAuthContext";
+import Spinner from "../../components/Spinner/Spinner";
 
 const League = () => {
   useDocumentTitle("Selecione a liga | Meu Time");
@@ -43,7 +44,7 @@ const League = () => {
         onChange={handleChange}
       />
       {isError && <S.Error as="h3">{data?.error}</S.Error>}
-      {data && data.leagues.length > 0 && (
+      {(data && data.leagues.length > 0 && (
         <S.Box>
           {data &&
             data.leagues.map(league => (
@@ -56,7 +57,7 @@ const League = () => {
               />
             ))}
         </S.Box>
-      )}
+      )) || <Spinner />}
     </S.Container>
   );
 };

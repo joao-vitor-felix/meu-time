@@ -4,6 +4,7 @@ import useCountry from "../../hooks/useCountry";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
 import Logo from "../../components/Logo/Logo";
 import useAuthContext from "../../hooks/useAuthContext";
+import Spinner from "../../components/Spinner/Spinner";
 
 const Country = () => {
   const { key, setKey } = useAuthContext();
@@ -23,7 +24,7 @@ const Country = () => {
       <S.ButtonStyled children="Sair" onClick={handleLogout} />
       <S.Title>Selecione o país</S.Title>
       {isError && <S.Error as="h3">{data?.error}</S.Error>}
-      {data && data.countries.length > 0 && (
+      {(data && data.countries.length > 0 && (
         <S.Box>
           {data &&
             data.countries.map(country => (
@@ -34,7 +35,7 @@ const Country = () => {
               />
             ))}
         </S.Box>
-      )}
+      )) || <Spinner />}
     </S.Container>
   );
 };

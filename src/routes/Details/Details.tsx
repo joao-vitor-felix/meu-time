@@ -9,6 +9,7 @@ import LineChart from "../../components/LineChart/LineChart";
 import TeamPlayersTable from "../../components/TeamPlayersTable/TeamPlayersTable";
 import ResultsFormationTable from "../../components/ResultsFormationTable/ResultsFormationTable";
 import useDocumentTitle from "../../hooks/useDocumentTitle";
+import Spinner from "../../components/Spinner/Spinner";
 
 const Details = () => {
   const { key } = useAuthContext();
@@ -39,35 +40,35 @@ const Details = () => {
     <>
       <Navbar />
       <S.Container>
-        {data && data?.teamData && (
+        {(data && data?.teamData && (
           <TeamData
             name={data.teamData.team.name}
             logo={data.teamData.team.logo}
             season={data.teamData.league.season}
           />
-        )}
+        )) || <Spinner />}
         {isError && (
           <S.Error>Erro ao carregar dados do time. Tente novamente!</S.Error>
         )}
         <S.TableGraphContainer>
-          {data && data?.teamData && (
+          {(data && data?.teamData && (
             <ResultsFormationTable teamData={data?.teamData} />
-          )}
+          )) || <Spinner />}
           <S.Graph>
-            {data && data?.teamData && (
+            {(data && data?.teamData && (
               <>
                 <S.Title>Quantidade de gols marcados por tempo de jogo</S.Title>
                 <LineChart goalsData={{ goals: data?.teamData.goals }} />
               </>
-            )}
+            )) || <Spinner />}
           </S.Graph>
         </S.TableGraphContainer>
-        {players && (
+        {(players && (
           <>
             <S.Title>Lista de jogadores</S.Title>
             <TeamPlayersTable playerData={players.playerData} />
           </>
-        )}
+        )) || <Spinner />}
         {playersError && (
           <S.Error>
             Erro ao carregar dados dos jogadores. Tente novamente!

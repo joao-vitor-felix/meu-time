@@ -4,7 +4,7 @@
 
 # ⚽Meu time
 
-Este projeto consiste em um teste técnico de Front end da Trade Technology. O objetivo foi criar uma aplicação web que permita que o usuário visualize as informações do seu time favorito.
+Este projeto consiste em um teste técnico de Front end da Trade Technology. O objetivo foi criar uma aplicação web que permita que o usuário visualize as informações do seu time favorito. Para acessar a aplicação é necessário ter uma key da API utilizada, a [API-Football](https://www.api-football.com/documentation-v3), é com esta key que irá ser feita a autenticação. Aproveite!
 
 <h2 align="center">
   <a href="https://meu-time-teste.netlify.app" target="_blank">Abrir o site</a>

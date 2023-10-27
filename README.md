@@ -22,7 +22,7 @@ Este projeto consiste em um teste técnico de Front end da Trade Technology. O o
 
 ## 💡 Funcionalidades
 
-- Visualizar informações do jogadores por temporada;
+- Visualizar informações dos jogadores por temporada;
 - Visualizar a formação mais utlizada pelo time em determinada temporada;
 - Visualizar um gráfico com a quantidade de gols marcados por minuto em determinada temporada.
 
